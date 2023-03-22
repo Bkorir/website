@@ -1,0 +1,26 @@
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.95)), url(P.jpg);
+    position: center;
+    size: cover;
+}
+.menu{
+font-size: 30px;
+}
+li{
+display: inline-block;
+margin-right: 100px;
+}
+li.a{
+    font-family: rosemary;
+}
+.menu li{
+    transform: 0.7;
+   transition: ease-in-out;
+}
+.menu li::after{
+    transition-delay: 0.3s;
+background-color: orange;
+}
+.menu li:hover{
+    transform: scale(1.5);
+}
